@@ -1,0 +1,22 @@
+.form-control{
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  background-color: $white-colour;
+  background-clip: padding-box;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* checkbox */
+.form-check{
+  position: relative;
+  display: block;
+  padding-left: 1.25rem;
+}
+.form-check-input{
+  position: absolute;
+  margin-top: .3rem;
+  margin-left: -1.25rem;
+}
